@@ -1,7 +1,10 @@
 {
-  "name": "eurobank-react-helmet",
+  "name": "@zer0fox/eurobank-react-helmet",
   "description": "A document head manager for React",
   "version": "6.1.0",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "main": "./lib/Helmet.js",
   "module": "./es/Helmet.js",
   "author": "NFL <engineers@nfl.com>",
