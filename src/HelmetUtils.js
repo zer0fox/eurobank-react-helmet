@@ -474,7 +474,7 @@ const updateTags = (type, tags) => {
     }
 
     oldTags.forEach(tag => tag.parentNode.removeChild(tag));
-    newTags.forEach(tag => headElement.prependChild(tag));
+    newTags.forEach(tag => headElement.prepend(tag));
 
     return {
         oldTags,
